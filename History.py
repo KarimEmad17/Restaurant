@@ -10,7 +10,7 @@ x = int((screenwidth - width)/2)
 y = int((screenheight - height)/2)
 pro.geometry(f"{width}x{height}+{x}+{y}")
 pro.resizable(False,False)
-pro.iconbitmap('E:\\restaurant\\restaurant.ico') 
+#pro.iconbitmap('E:\\restaurant\\restaurant.ico') 
 def Reset():
     pro.destroy()
     import History

@@ -1,10 +1,10 @@
 from tkinter import*
 yy=Tk()
 yy.title('Restaurant Bot')
-yy.iconbitmap('E:\\restaurant\\restaurant.ico') 
-photo=PhotoImage(file='E:\\restaurant\\ss.png')
-panel=Label(yy, image=photo)
-panel.pack()
+#yy.iconbitmap('E:\\restaurant\\restaurant.ico') 
+#photo=PhotoImage(file='E:\\restaurant\\ss.png')
+#panel=Label(yy, image=photo)
+#panel.pack()
 width=500
 height=450
 screenwidth = yy.winfo_screenwidth()
