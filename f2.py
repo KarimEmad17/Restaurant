@@ -6,7 +6,7 @@ from tkinter import*
 from typing import Sized
 tt=Tk()
 tt.title('Restaurant Bot')
-#tt.iconbitmap('E:\\restaurant\\restaurant.ico') 
+#tt.iconbitmap('E:\\restaurant\\Images\\restaurant.ico') 
 width=500
 height=500
 screenwidth = tt.winfo_screenwidth()
@@ -17,16 +17,16 @@ tt.geometry(f"{width}x{height}+{x}+{y}")
 tt.resizable(False,False)
 fr2=Frame(tt)
 fr2.pack(pady=30)
-#img=PhotoImage(file='E:\\restaurant\\fff.png')
+#img=PhotoImage(file='E:\\restaurant\\Images\\fff.png')
 label = Label(
     tt,
     #image=img
 )
 label.place(x=0,y=0)
-#photo1 = PhotoImage(file='E:\\restaurant\\coffee.png')
-#photo2 = PhotoImage(file='E:\\restaurant\\drinks.png')
-#photo3 = PhotoImage(file='E:\\restaurant\\gujrati-food.png')
-#photo4 = PhotoImage(file='E:\\restaurant\\ice-cream.png')
+#photo1 = PhotoImage(file='E:\\restaurant\\Images\\coffee.png')
+#photo2 = PhotoImage(file='E:\\restaurant\\Images\\drinks.png')
+#photo3 = PhotoImage(file='E:\\restaurant\\Images\\gujrati-food.png')
+#photo4 = PhotoImage(file='E:\\restaurant\\Images\\ice-cream.png')
 def IceCream():
     tt.destroy()
     import IceCream
