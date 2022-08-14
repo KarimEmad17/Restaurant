@@ -1,10 +1,9 @@
 from tkinter import*
 yy=Tk()
 yy.title('Restaurant Bot')
-#yy.iconbitmap('E:\\restaurant\\restaurant.ico')
+#yy.iconbitmap('E:\\restaurant\\Images\\restaurant.ico')
 #yy.title('Restaurant bot')
-#yy.iconbitmap('E:\\restaurant\\restaurant.ico') 
-#photo=PhotoImage(file='E:\\restaurant\\coffeee.png')
+#photo=PhotoImage(file='E:\\restaurant\\Images\\coffeee.png')
 #panel=Label(yy, image=photo)
 #panel.pack() 
 width=500
